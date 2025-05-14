@@ -188,11 +188,11 @@
   }
   
   .hero-content {
-    padding: 30px;
-    margin-top: 50px;
+    padding: 0px;
   }
   
   .hero-content p {
+    padding: 10px;
     font-size: 20px;
     font-weight: 700;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -204,10 +204,6 @@
     margin-bottom: 20px;
   }
   
-  .Input {
-    position: relative;
-    margin-top: 20px;
-  }
   
   .nav-icon i {
     font-size: 24px;
@@ -216,15 +212,6 @@
   .menu-btn-wrapper {
     display: none;
   }
-  
-  .hero-content input {
-    padding: 15px;
-    border-radius: 30px;
-    width: 300px;
-    border: none;
-    outline: none;
-  }
-  
   .hero-content button {
     padding: 10px;
     border-radius: 30px;
@@ -1067,11 +1054,8 @@
     .hero-content p {
       font-weight: 500;
     }
-    .hero-content button {
-      right: 25px;
-    }
     .hero-content h1 {
-      font-size: 3rem;
+      font-size: 2rem;
     }
     .image {
       display: none;
