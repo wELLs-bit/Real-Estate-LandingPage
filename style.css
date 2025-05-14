@@ -1173,6 +1173,12 @@
     .subfooter-plus {
       padding: 0px;
     }
+    .subfooter-text h2{
+      font-size: 20px;
+    }
+    .subfooter-text p{
+      font-size: 18px;
+    }
     .agent-section h1{
       font-size: 28px;
     }
