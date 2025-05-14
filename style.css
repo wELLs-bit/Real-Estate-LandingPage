@@ -181,18 +181,17 @@
     justify-content: space-between;
     padding: 0px 20px;
     margin-top: 90px;
-    min-height: 75vh;
     width: 100%;
     background: linear-gradient(90deg, #bd2f50c9 0%, #96c4cb 100%);
     border-radius: 20px;
   }
   
   .hero-content {
-    padding: 0px;
+    padding: 20px;
+    margin-top: 30px;
   }
   
   .hero-content p {
-    padding: 10px;
     font-size: 20px;
     font-weight: 700;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -212,6 +211,7 @@
   .menu-btn-wrapper {
     display: none;
   }
+
   .hero-content button {
     padding: 10px;
     border-radius: 30px;
@@ -257,7 +257,7 @@
   
   .service-section .service-headline h1 {
     color: #bd2f50c9;
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 10px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
@@ -351,7 +351,6 @@
   .project-headline h1 {
     color: #bd2f50c9;
     font-size: 50px;
-    padding: 10px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
   
@@ -1050,6 +1049,7 @@
   @media (max-width: 575px) {
     .hero-content {
       padding: 0px;
+      margin-top: 0px;
     }
     .hero-content p {
       font-weight: 500;
@@ -1063,6 +1063,9 @@
     .service-contents {
       flex-direction: column;
       padding: 0px;
+    }
+    .service-headline h1 {
+      font-size: 20px;
     }
   
     .project-content {
@@ -1110,7 +1113,7 @@
   
   @media (max-width: 480px) {
     .logo h1{
-      font-size: 22px;
+      font-size: 20px;
     }
     .logo ion-icon{
       font-size: 18px;
@@ -1121,32 +1124,70 @@
     .hero-content p {
       font-size: 18px;
     }
+    .hero-content {
+      padding: 20px 10px;
+      margin-top: 0px;
+    }
     .service-section {
       padding: 0px;
     }
+    .service-section .service-headline h1 {
+      font-size: 22px;
+    }
+    .service-section .service-headline p{
+      font-size: 18px;
+    }
+    .service-contents ion-icon{
+      font-size: 28px;
+    }
+    .service-contents h2{
+      font-size: 24px;
+    }
+    .service-contents p{
+      font-size: 18px;
+    }
   
-    .service-headline h1 {
-      color: rgb(64, 35, 75);
-    }
-    .hero-content button {
-      right: 0px;
-    }
     .hero-content p {
       margin-bottom: 37px;
     }
       .project-section{
-      margin-top: 40rem;
+      margin-top: 10rem;
+    }
+    .project-section p{
+      font-size: 18px;
+    }
+    .project-headline h1 {
+      font-size: 40px;
+    }
+    .box-text h2{
+      font-size: 18px;
+    }
+    .box-text p{
+      font-size: 16px;
+      font-weight: 500;
     }
   
     .subfooter h1 {
-      font-size: 45px;
+      font-size: 30px;
     }
     .subfooter-plus {
       padding: 0px;
     }
-    .Input {
-      bottom: 33px;
-      right: 3px;
+    .agent-section h1{
+      font-size: 28px;
+    }
+    .agents img{
+      height: 200px;
+      width: 200px;
+    }
+    .agents{
+      width: 300px;
+    }
+    .agents h2{
+      font-size: 20px;
+    }
+    .agents a{
+      font-size: 18px;
     }
   
     footer {
@@ -1190,6 +1231,9 @@
     .contents p {
       font-size: 16px;
     }
+    .contact-section h1{
+      font-size: 26px;
+    }
       .contact-section {
       padding: 10px;
       min-height: auto; 
@@ -1200,7 +1244,7 @@
     .contact-contents {
       flex-direction: column; 
       align-items: center; 
-      gap: 30px; 
+      gap: 10px; 
   
     .contact-section h1 {
       font-size: 35px;
